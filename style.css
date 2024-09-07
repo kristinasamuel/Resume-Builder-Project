@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: slategray;
+    text-transform: uppercase;
+  }
+  h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  form {
+    max-width: 600px;
+    margin: auto;
+    background-color: ghostwhite;
+    border-radius: 8px;
+    padding: 40px;
+  }
+  fieldset {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(169, 227, 235);
+  }
+  h2 {
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+    color: indianred;
+    font-size: 22px;
+  }
+  input,
+  textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid brown;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: black;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(169, 227, 235);
+    color: black;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgb(173, 173, 192);
+  }
+  /* media for mobile responsive */
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    form {
+      padding: 20px;
+    }
+  
+    fieldset {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    label {
+      font-size: 18px;
+    }
+  
+    input,
+    textarea {
+      font-size: 14px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  
+    button {
+      font-size: 18px;
+    }
+  }

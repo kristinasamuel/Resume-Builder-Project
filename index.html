@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <!-- creating a perfect resume builder -->
+      <!-- main heading h1 -->
+      <h1>Build Your Perfect Resume</h1>
+
+      <form class="Perfect Resume">
+        <!-- All separated section  -->
+
+        <fieldset>
+          <!-- 1: section  personal information in this field -->
+
+          <h2>Personal Information</h2>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /> <br />
+
+          <label for="father name"> Father Name:</label>
+          <input type="text" id="father name" name=" Father name" required />
+          <br />
+
+          <label for="name">Date of Birth:</label>
+          <input type="text" id="date of birth" name="date of birth" required />
+          <br />
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required /><br />
+
+          <label for="phone">Phone Number:</label>
+          <input type="phone" name="phone" id="phone" required /> <br />
+
+          <label for="Address"> Address:</label>
+          <input type="text" name="address" id="address" />
+        </fieldset>
+        <fieldset>
+          <!-- 2: section  write qualification  -->
+          <h2>Education</h2>
+          <label for="Education">Qualification</label>
+          <textarea
+            name="text"
+            rows="6"
+            id="education"
+            required
+          ></textarea>
+          
+        </fieldset>
+        <fieldset>
+          <!--  3: section experience write about any experience  -->
+          <h2>Experience</h2>
+          <label for="Experience"> Job Experience</label>
+          <textarea
+            name="text"
+            rows="6"
+            id="Experience"
+            required
+          ></textarea>
+         
+        </fieldset>
+        <fieldset>
+          <!-- 4: skills section write skills -->
+          <h2>Skills</h2>
+          <label for="skills"> Skills</label>
+          <textarea name="text" rows="6" id="skills" required></textarea>
+          
+        </fieldset>
+        <!-- last I create a generate button to generate resume -->
+        <p>Fill out your details and press Generate Resume</p>
+
+        <button type="submit">Generate Resume</button>
+      </form>
+    </div>
+  </body>
+</html>
